@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/incremental/mergeF0DebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/b63f69b0caf407a2919825faa2408ed199c5d0fc/output/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/incremental/mergeF0DebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/iofractal/.android/build-cache/622b30abe00dc52009aa8434e7fb70977d350d6b/output/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 57,
+                        "endOffset": 108
+                    }
+                }
+            }
+        ]
+    }
+]

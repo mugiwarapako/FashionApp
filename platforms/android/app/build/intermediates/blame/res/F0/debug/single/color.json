@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/list_editor_text_color.xml",
+        "source": "/root/.android/build-cache/7daec4265e360c1edcc60a714adf8f8c8f73fac9/output/res/color/list_editor_text_color.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/list_editor_text_color.xml",
+        "source": "/home/iofractal/.android/build-cache/a644d610af87eaf335c5a8b75b05bf070100bc77/output/res/color/list_editor_text_color.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_material_light.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/switch_thumb_material_dark.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_search_url_text.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/switch_thumb_material_light.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/color/abc_search_url_text.xml",
+        "source": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/color/abc_search_url_text.xml"
+    }
+]

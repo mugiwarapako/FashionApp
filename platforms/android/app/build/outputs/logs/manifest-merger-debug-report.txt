@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:3:2-36
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [:nativescript-optimized:] /home/iofractal/.android/build-cache/af2690695cdde44525120caf55aef9f65ba909b2/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /home/iofractal/.android/build-cache/dd601cb00bba734d41c084c096ddaf397a16df77/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:22.2.1] /home/iofractal/.android/build-cache/a1d8244bf8f8ce41cda6c880dd4dff9b953f3627/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/iofractal/.android/build-cache/e1f8052c5ecfb9ce4cb32f365df447248741970b/output/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [:widgets-release:] /home/iofractal/.android/build-cache/dd601cb00bba734d41c084c096ddaf397a16df77/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:22.2.1] /home/iofractal/.android/build-cache/a1d8244bf8f8ce41cda6c880dd4dff9b953f3627/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/iofractal/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/iofractal/.android/build-cache/e1f8052c5ecfb9ce4cb32f365df447248741970b/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+	android:allowBackup
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:icon
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+	android:theme
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from /home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/src/main/AndroidManifest.xml:41:13-55

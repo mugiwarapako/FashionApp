@@ -1,0 +1,81 @@
+<Page loaded="loaded">
+  <Page.actionBar>
+    <ActionBar class="action-bar">
+      <ActionBar.titleView>
+        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="back"/>
+        <StackLayout orientation="horizontal"
+    ios:horizontalAlignment="center"
+    android:horizontalAlignment="left">
+          <Image src="~/images/logoBar.png" class="action-image"></Image>
+          <Label text="Fashion" style="font-size:22;" class="action-label-1" />
+        </StackLayout>
+      </ActionBar.titleView>
+      <ActionItem tap="onSaveUser"  ios.systemIcon="2" android.systemIcon="ic_menu_save"/>
+    </ActionBar>
+  </Page.actionBar>
+      <FlexboxLayout flexDirection="column" orientation="vertical" class="margin-page">
+      <ScrollView flexGrow="1" id="scrollview">
+
+        <!-- Wrap excessive items on new lines -->
+        <FlexboxLayout flexWrap="wrap" alignContent="flex-start">
+
+          <Image  src="~/images/modelo.jpg" class="action-image"  stretch="none" top="0" />
+
+            <FlexboxLayout flexWrap="wrap" alignContent="flex-start" flexGrow="2">
+
+              <StackLayout backgroundColor="#222" color="#fff" width="13%" tap="yesTop">
+                <Image src="~/images/MeGusta.png"></Image>
+              </StackLayout>
+
+              <StackLayout tap="noTop" backgroundColor="#222" color="#fff" width="13%" >
+                <Image src="~/images/NoMegusta.png"></Image>
+              </StackLayout>
+
+              
+              
+              
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              
+
+              <StackLayout backgroundColor="#222" color="#fff" width="13%" tap="yesM">
+                <Image src="~/images/MeGusta.png"></Image>
+              </StackLayout>
+
+              <StackLayout tap="noM" backgroundColor="#222" color="#fff" width="13%" >
+                <Image src="~/images/NoMegusta.png"></Image>
+              </StackLayout>
+
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+              <Label text="" flexWrapBefore="true" borderRadius="5" />
+
+
+
+              <StackLayout backgroundColor="#222" color="#fff" width="13%" tap="yesB">
+                <Image src="~/images/MeGusta.png"></Image>
+              </StackLayout>
+
+              <StackLayout tap="noB" backgroundColor="#222" color="#fff" width="13%" >
+                <Image src="~/images/NoMegusta.png"></Image>
+              </StackLayout>
+
+              
+            </FlexboxLayout>
+
+        </FlexboxLayout>
+      </ScrollView>
+         </FlexboxLayout>
+
+</Page>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/menu/view_feedback_items_activity_menu.xml",
+        "source": "/home/iofractal/.android/build-cache/622b30abe00dc52009aa8434e7fb70977d350d6b/output/res/menu/view_feedback_items_activity_menu.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/menu/send_feedback_activity_menu.xml",
+        "source": "/root/.android/build-cache/b63f69b0caf407a2919825faa2408ed199c5d0fc/output/res/menu/send_feedback_activity_menu.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/menu/view_feedback_items_activity_menu.xml",
+        "source": "/root/.android/build-cache/b63f69b0caf407a2919825faa2408ed199c5d0fc/output/res/menu/view_feedback_items_activity_menu.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/menu/send_feedback_activity_menu.xml",
+        "source": "/home/iofractal/.android/build-cache/622b30abe00dc52009aa8434e7fb70977d350d6b/output/res/menu/send_feedback_activity_menu.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/menu/edit_details.xml",
+        "source": "/root/.android/build-cache/b63f69b0caf407a2919825faa2408ed199c5d0fc/output/res/menu/edit_details.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/menu/edit_details.xml",
+        "source": "/home/iofractal/.android/build-cache/622b30abe00dc52009aa8434e7fb70977d350d6b/output/res/menu/edit_details.xml"
+    }
+]

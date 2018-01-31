@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_normal.xml",
+        "source": "/home/iofractal/.android/build-cache/a644d610af87eaf335c5a8b75b05bf070100bc77/output/res/drawable-v21/autocomplete_bg_normal.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/root/.android/build-cache/73b46bbff5036a1ccf8e4cf4263fd1d9acc840ab/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_normal.xml",
+        "source": "/root/.android/build-cache/7daec4265e360c1edcc60a714adf8f8c8f73fac9/output/res/drawable-v21/autocomplete_bg_normal.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_focusable_bg.xml",
+        "source": "/home/iofractal/.android/build-cache/a644d610af87eaf335c5a8b75b05bf070100bc77/output/res/drawable-v21/autocomplete_focusable_bg.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_focusable_bg.xml",
+        "source": "/root/.android/build-cache/7daec4265e360c1edcc60a714adf8f8c8f73fac9/output/res/drawable-v21/autocomplete_focusable_bg.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_active.xml",
+        "source": "/root/.android/build-cache/7daec4265e360c1edcc60a714adf8f8c8f73fac9/output/res/drawable-v21/autocomplete_bg_active.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/home/iofractal/.android/build-cache/fb488a53c635a9ce008923ae3ff9093f95b53077/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_active.xml",
+        "source": "/home/iofractal/.android/build-cache/a644d610af87eaf335c5a8b75b05bf070100bc77/output/res/drawable-v21/autocomplete_bg_active.xml"
+    }
+]
