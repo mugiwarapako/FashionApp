@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/pressable_item_background.xml",
+        "source": "/root/.android/build-cache/16b930616cb07a7824e14b4e3a7e413df1918c54/output/res/drawable-v21/pressable_item_background.xml"
+    },
+    {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_normal.xml",
         "source": "/home/iofractal/.android/build-cache/a644d610af87eaf335c5a8b75b05bf070100bc77/output/res/drawable-v21/autocomplete_bg_normal.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_active.xml",
+        "source": "/root/.android/build-cache/5818b525f3b8f4113ebf37467e0bb490814d2c2d/output/res/drawable-v21/autocomplete_bg_active.xml"
     },
     {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/pressable_item_background.xml",
@@ -10,6 +18,10 @@
     {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_normal.xml",
         "source": "/root/.android/build-cache/7daec4265e360c1edcc60a714adf8f8c8f73fac9/output/res/drawable-v21/autocomplete_bg_normal.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_focusable_bg.xml",
+        "source": "/root/.android/build-cache/5818b525f3b8f4113ebf37467e0bb490814d2c2d/output/res/drawable-v21/autocomplete_focusable_bg.xml"
     },
     {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_focusable_bg.xml",
@@ -30,5 +42,9 @@
     {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_active.xml",
         "source": "/home/iofractal/.android/build-cache/a644d610af87eaf335c5a8b75b05bf070100bc77/output/res/drawable-v21/autocomplete_bg_active.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-v21/autocomplete_bg_normal.xml",
+        "source": "/root/.android/build-cache/5818b525f3b8f4113ebf37467e0bb490814d2c2d/output/res/drawable-v21/autocomplete_bg_normal.xml"
     }
 ]

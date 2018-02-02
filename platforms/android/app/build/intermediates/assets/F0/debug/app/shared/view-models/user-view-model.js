@@ -10,7 +10,7 @@ function UserViewModel(items) {
 
     viewModel.add = function (userData) {
         console.log("JSON ----*****---> " + JSON.stringify(userData));
-        console.log("NOMBRE QUE LE MANDO DEL JS --------------->" + userData.nombre);
+        console.log("a la url   ***---> " + config.apiUrl + "user/addUser");
         return fetch(config.apiUrl + "user/addUser", {
             method: "POST",
             body: JSON.stringify({
@@ -37,7 +37,7 @@ function UserViewModel(items) {
 
     viewModel.addCalif = function (userData) {
         console.log("JSON ----*****---> " + JSON.stringify(userData));
-        console.log("apiUrl ----*****---> " + config.apiUrl + "userModels/addUserModel");
+        console.log("apiUrl *****---> " + config.apiUrl + "userModels/addUserModel");
         return fetch(config.apiUrl + "userModels/addUserModel", {
             method: "POST",
             body: JSON.stringify({

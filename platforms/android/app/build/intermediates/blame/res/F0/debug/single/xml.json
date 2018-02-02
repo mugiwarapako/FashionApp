@@ -16,6 +16,10 @@
         "source": "/home/iofractal/.android/build-cache/a3614f2fca03bb5d2b9ab6e0b5f7146dbb1c49c3/output/res/xml/chart_palettes_default_dark.xml"
     },
     {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_default_dark.xml",
+        "source": "/root/.android/build-cache/fb2ed400665b7e0cc3efd52a564e2c3c0c0c5e52/output/res/xml/chart_palettes_default_dark.xml"
+    },
+    {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_default_light.xml",
         "source": "/root/.android/build-cache/9a7ad1d5f717c9ff67bf5a19672970fadb51212f/output/res/xml/chart_palettes_default_light.xml"
     },
@@ -24,11 +28,23 @@
         "source": "/root/.android/build-cache/9a7ad1d5f717c9ff67bf5a19672970fadb51212f/output/res/xml/chart_palettes_dark_selected.xml"
     },
     {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_light_selected.xml",
+        "source": "/root/.android/build-cache/fb2ed400665b7e0cc3efd52a564e2c3c0c0c5e52/output/res/xml/chart_palettes_light_selected.xml"
+    },
+    {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_light_selected.xml",
         "source": "/root/.android/build-cache/9a7ad1d5f717c9ff67bf5a19672970fadb51212f/output/res/xml/chart_palettes_light_selected.xml"
     },
     {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_light_selected.xml",
         "source": "/home/iofractal/.android/build-cache/a3614f2fca03bb5d2b9ab6e0b5f7146dbb1c49c3/output/res/xml/chart_palettes_light_selected.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_default_light.xml",
+        "source": "/root/.android/build-cache/fb2ed400665b7e0cc3efd52a564e2c3c0c0c5e52/output/res/xml/chart_palettes_default_light.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/xml/chart_palettes_dark_selected.xml",
+        "source": "/root/.android/build-cache/fb2ed400665b7e0cc3efd52a564e2c3c0c0c5e52/output/res/xml/chart_palettes_dark_selected.xml"
     }
 ]

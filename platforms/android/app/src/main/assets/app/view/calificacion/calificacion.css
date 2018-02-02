@@ -22,3 +22,11 @@ GridLayout {
     margin-top: 10;
     margin-bottom: 10;
 }
+
+.btn{
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: #3B5997;
+    
+}

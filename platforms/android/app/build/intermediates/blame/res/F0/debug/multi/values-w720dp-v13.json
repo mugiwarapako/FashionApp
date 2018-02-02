@@ -24,6 +24,30 @@
         ]
     },
     {
+        "outputFile": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/incremental/mergeF0DebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/values-w720dp/values-w720dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 76,
+                        "endOffset": 365
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/incremental/mergeF0DebugResources/merged.dir/values-w720dp-v13/values-w720dp-v13.xml",
         "map": [
             {

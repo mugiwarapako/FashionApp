@@ -3,93 +3,93 @@
 
     <item
         is-multidex="false"
-        jar="/root/.android/build-cache/33a7482749ae2fecca13ff4bcf30c4d5a6469773/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="ada15dd7aad50793dcd67b281a8eb06e80007500">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_4fb15e1d6eaee3f794fa023a80b61100c747d50c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/9a7ad1d5f717c9ff67bf5a19672970fadb51212f/output/jars/classes.jar"
+        jar="/root/.android/build-cache/fb2ed400665b7e0cc3efd52a564e2c3c0c0c5e52/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="21ece50b870a8bea45608a6748ad60112d5d9ed1">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_4c45a3118fa45a6455d40f65e473d9eb306028b8.jar" />
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_860df6f9060c10f6a7106d913437761a29fe29e2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/root/.android/build-cache/e68cf35a8bc8d00cd497fb6472bbed41abb2c4b7/output/jars/classes.jar"
+        jar="/root/.android/build-cache/e198d83740c4302d8672203986794f867754d511/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_ec94e48040a64117fbb96d29cac7135436830a61.jar" />
+        sha1="ada15dd7aad50793dcd67b281a8eb06e80007500">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_68e84a42556bb11c3be3bdfc8df05fc940581a2a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/root/.android/build-cache/b63f69b0caf407a2919825faa2408ed199c5d0fc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="0eed9e468431f447bf63f3a0cee23418e8994411">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_d72d28df2839c3c14e042c2668c91cfb6aa0b87d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/840effec9bc5b21853aad241bd78add2380b6af6/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="556dc4e7734c7445d7310a625fad89c5be6728b2">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_52b8992209ee7c6264c11d906e492686866890ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/254a7b4dfbf16419d328e2437945593cf50047bf/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="9ffa5b2e37c626bd25cfbff4df099cdf068595f9">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_965ce2fd30784ea88a2baef1681d8bd411b35161.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/1ae22f5520d9b17bb4bec5b3e1756ae8aafe4884/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="4df8aad66215f497722e05820383f9ff04796fea">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_df74d57ff8414d62c570c126d2de4d62b1ce7a43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/ecdc330bd2ebf2afb198c649620d4e33e7729e92/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="16dfa5cc51cd9a9e2809e48ceb26724a29861fdd">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_f7b663f311c854ea6fba10fbf31867f95180a151.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/73b46bbff5036a1ccf8e4cf4263fd1d9acc840ab/output/jars/classes.jar"
+        jar="/root/.android/build-cache/16b930616cb07a7824e14b4e3a7e413df1918c54/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="ae411cd0dd58ad905486a0bc7931ec5adf3a2d13">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_49e201827ff45d02c3d656aa7f28e9ba1559a75d.jar" />
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_da1b5d31ead5336209d3da38ccb256be31f3964b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/root/.android/build-cache/7daec4265e360c1edcc60a714adf8f8c8f73fac9/output/jars/classes.jar"
+        jar="/root/.android/build-cache/ef26c6de43eb96774622c69d83a3b38d4f1b0fb3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="16dfa5cc51cd9a9e2809e48ceb26724a29861fdd">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_72a3ef0b52b66c9e86fa8030a8f5103a0fa45205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/7262afd0e01ea884dc5d04f0017adbf1698fafb2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4df8aad66215f497722e05820383f9ff04796fea">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_04638779717ce0a938e66b6951362c3426e39404.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/b1f7ed9ae1ffe28ae6f98ea6b6e2945ede51bccb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0eed9e468431f447bf63f3a0cee23418e8994411">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_63866409887e80b9262238b70887924a5f543ba7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/28c33a991dd31a3c4a59d94ffcb543c0ed7232cc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_071a698f3a8b3f6af02874d99a2ea7b5fe72dba2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/5818b525f3b8f4113ebf37467e0bb490814d2c2d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="ce22401852bd9e460265a9a1567f7cedb6fc91b9">
-        <dex dex="/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_d6b6d1be060ea2ed968522f80fab87b0ff3fcc50.jar" />
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_b820411a4d803d909316d55319875dc5fbb7ef2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/403718a206722c31621ca5d88edea2a3f5ff9dbf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9ffa5b2e37c626bd25cfbff4df099cdf068595f9">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_16baee484319e10318ef9d780dac6dba9cc6b324.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/7f54e036e013c84e723fe2a47beb767dbde89f77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="556dc4e7734c7445d7310a625fad89c5be6728b2">
+        <dex dex="/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/pre-dexed/F0/debug/classes_139241c311a77c0043cc2fb070a9eae43bd500bf.jar" />
     </item>
 
 </items>

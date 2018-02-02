@@ -25,18 +25,16 @@
         
 
 
-        <FlexboxLayout height="100" flexDirection="row-reverse">
+        <FlexboxLayout height="140" flexDirection="row-reverse">
             <!-- Use even flexGrow to achieve uniform grid -->
             <Label text="" flexGrow="1" />
-            <Label text="" flexGrow="1" />
-            <StackLayout  color="#fff" tap="yesTop"  flexGrow="1" >
+            <StackLayout  class="btn" tap="yesTop"  flexGrow="2" >
                 <Image src="{{botonSiA}}"></Image>
               </StackLayout>
-              <StackLayout  color="#fff" tap="noTop"  flexGrow="1" >
+              <StackLayout  class="btn"  tap="noTop"  flexGrow="2" >
                 <Image src="{{botonNoA}}"></Image>
               </StackLayout>
             <Label text="" flexGrow="1" />
-            <Label text="" flexGrow="1" />
         </FlexboxLayout>
 
 
@@ -45,38 +43,34 @@
 
 
 
-        <!-- Set flexGrow to accomodate into any extra space -->
         <ScrollView flexGrow="1" id="scrollview" class="fullscreen">
-
-            <!-- Wrap excessive items on new lines -->
-            <FlexboxLayout height="100" flexDirection="row-reverse">
-            <!-- Use even flexGrow to achieve uniform grid -->
-            <Label text="" flexGrow="1" />
-            
-            <Label text="" flexGrow="1" />
-            <StackLayout  color="#fff" tap="yesM"  flexGrow="1" >
-                <Image src="{{botonSiM}}"></Image>
+            <FlexboxLayout height="350" flexDirection="row-reverse">
+            <Label class="btn"  text="" flexGrow="1" />
+            <StackLayout class="btn"  tap="yesM"  flexGrow="2" >
+                <Image src="{{botonSiM}}" width="150"></Image>
               </StackLayout>
-              <StackLayout  color="#fff" tap="noM"  flexGrow="1" >
-                <Image src="{{botonNoM}}"></Image>
+              <StackLayout   class="btn"  tap="noM"  flexGrow="2" >
+                <Image src="{{botonNoM}}" width="150"></Image>
               </StackLayout>
-            <Label text="" flexGrow="1" />
-            <Label text="" flexGrow="1" />
+            <Label class="btn"  text="" flexGrow="1" />
         </FlexboxLayout>
-
         </ScrollView>
-        <FlexboxLayout height="100" flexDirection="row-reverse">
+
+
+
+
+
+
+
+        <FlexboxLayout height="140" flexDirection="row-reverse">
             <!-- Use even flexGrow to achieve uniform grid -->
             <Label text="" flexGrow="1" />
-            <Label text="" flexGrow="1" />
-            <StackLayout  color="#fff" tap="yesB"  flexGrow="1" >
+            <StackLayout  class="btn" tap="yesB"  flexGrow="2" >
                 <Image src="{{botonSiB}}"></Image>
               </StackLayout>
-              <StackLayout  color="#fff" tap="noB"  flexGrow="1" >
+              <StackLayout  class="btn"  tap="noB"  flexGrow="2" >
                 <Image src="{{botonNoB}}"></Image>
               </StackLayout>
-            <Label text="" flexGrow="1" />
-            
             <Label text="" flexGrow="1" />
         </FlexboxLayout>
     </FlexboxLayout>

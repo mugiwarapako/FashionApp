@@ -6,5 +6,9 @@
     {
         "merged": "/home/iofractal/Documentos/proyectos/Fashion/Fashion/platforms/android/app/build/intermediates/res/merged/F0/debug/layout-sw600dp-v13/layout_snackbar.xml",
         "source": "/root/.android/build-cache/a1d8244bf8f8ce41cda6c880dd4dff9b953f3627/output/res/layout-sw600dp/layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/res/merged/F0/debug/layout-sw600dp-v13/layout_snackbar.xml",
+        "source": "/root/.android/build-cache/a1d8244bf8f8ce41cda6c880dd4dff9b953f3627/output/res/layout-sw600dp/layout_snackbar.xml"
     }
 ]

@@ -35,10 +35,35 @@ exports.onSaveUser = function () {
     if (verifyEmpty(pageData.name) && verifyEmpty(pageData.address) && verifyEmpty(pageData.phone)) {
         userView.addEvent(userJson).catch(function () {
             dialogsModule.alert({
-                message: "Ocurrio un error al agregar un usuario, consulte con su administrador.",
+                message: "Ocurrio un error al agregar un evento, consulte con su administrador.",
                 okButtonText: "Aceptar"
             });
         });
+
+
+        dialogsModule.alert({
+            message: "Evento correctamente guardado.",
+            okButtonText: "Aceptar"
+        });
+
+        var topmost = frameModule.topmost();
+
+        // Opciones de la navegacion
+        var navigationOptions = {
+            moduleName: "view/home/home-page",
+            backstackVisible: false,
+            clearHistory: false,
+            animated: true,
+                transition: {
+                    name: "slideLeft",
+                    duration: 380,
+                    curve: "easeIn"
+                }
+        };
+
+        // Navegamos a la vista indicada
+        topmost.navigate(navigationOptions);
+
 
     } else {
         dialogsModule.alert({

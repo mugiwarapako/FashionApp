@@ -50,5 +50,31 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/incremental/mergeF0DebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/values-hdpi/values-hdpi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 567
+                    }
+                }
+            }
+        ]
     }
 ]

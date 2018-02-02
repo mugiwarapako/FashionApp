@@ -37,6 +37,31 @@ exports.onSaveUser = function () {
 	            okButtonText: "Aceptar"
 	        });
 	    });
+
+	    dialogsModule.alert({
+	        message: "Usuario correctamente guardado.",
+	        okButtonText: "Aceptar"
+	    });
+
+	    var topmost = frameModule.topmost();
+
+    	// Opciones de la navegacion
+    	var navigationOptions = {
+        	moduleName: "view/home/home-page",
+        	backstackVisible: false,
+        	clearHistory: false,
+        	animated: true,
+        		transition: {
+            		name: "slideLeft",
+            		duration: 380,
+            		curve: "easeIn"
+        		}
+    	};
+
+    	// Navegamos a la vista indicada
+    	topmost.navigate(navigationOptions);
+
+
 	    
 	} else {
 		dialogsModule.alert({

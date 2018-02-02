@@ -10,72 +10,94 @@
           <Label text="Fashion" style="font-size:22;" class="action-label-1" />
         </StackLayout>
       </ActionBar.titleView>
-      <ActionItem tap="onSaveUser"  ios.systemIcon="2" android.systemIcon="ic_menu_save"/>
+      <ActionItem tap="onSaveUser" style="font-size:22;" ios.systemIcon="2" text="enviar"/>
     </ActionBar>
-  </Page.actionBar>
-      <FlexboxLayout flexDirection="column" orientation="vertical" class="margin-page">
-      <ScrollView flexGrow="1" id="scrollview">
 
-        <!-- Wrap excessive items on new lines -->
-        <FlexboxLayout flexWrap="wrap" alignContent="flex-start">
 
-          <Image  src="~/images/modelo.jpg" class="action-image"  stretch="none" top="0" />
 
-            <FlexboxLayout flexWrap="wrap" alignContent="flex-start" flexGrow="2">
 
-              <StackLayout backgroundColor="#222" color="#fff" width="13%" tap="yesTop">
-                <Image src="~/images/MeGusta.png"></Image>
+
+
+
+
+    <FlexboxLayout  flexDirection="column" style="background-image: url('~/images/modelo.jpg');background-repeat: no-repeat; background-position: center; width:100%; height:100% "  >
+        <!-- Reverse the natural flow of items -->
+        
+
+
+        <FlexboxLayout height="100" flexDirection="row-reverse">
+            <!-- Use even flexGrow to achieve uniform grid -->
+            <Label text="" flexGrow="1" />
+            <Label text="" flexGrow="1" />
+            <StackLayout  color="#fff" tap="yesTop"  flexGrow="1" >
+                <Image src="{{botonSiA}}"></Image>
               </StackLayout>
-
-              <StackLayout tap="noTop" backgroundColor="#222" color="#fff" width="13%" >
-                <Image src="~/images/NoMegusta.png"></Image>
+              <StackLayout  color="#fff" tap="noTop"  flexGrow="1" >
+                <Image src="{{botonNoA}}"></Image>
               </StackLayout>
-
-              
-              
-              
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              
-
-              <StackLayout backgroundColor="#222" color="#fff" width="13%" tap="yesM">
-                <Image src="~/images/MeGusta.png"></Image>
-              </StackLayout>
-
-              <StackLayout tap="noM" backgroundColor="#222" color="#fff" width="13%" >
-                <Image src="~/images/NoMegusta.png"></Image>
-              </StackLayout>
-
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-              <Label text="" flexWrapBefore="true" borderRadius="5" />
-
-
-
-              <StackLayout backgroundColor="#222" color="#fff" width="13%" tap="yesB">
-                <Image src="~/images/MeGusta.png"></Image>
-              </StackLayout>
-
-              <StackLayout tap="noB" backgroundColor="#222" color="#fff" width="13%" >
-                <Image src="~/images/NoMegusta.png"></Image>
-              </StackLayout>
-
-              
-            </FlexboxLayout>
-
+            <Label text="" flexGrow="1" />
+            <Label text="" flexGrow="1" />
         </FlexboxLayout>
-      </ScrollView>
-         </FlexboxLayout>
 
+
+
+
+
+
+
+        <!-- Set flexGrow to accomodate into any extra space -->
+        <ScrollView flexGrow="1" id="scrollview" class="fullscreen">
+
+            <!-- Wrap excessive items on new lines -->
+            <FlexboxLayout height="100" flexDirection="row-reverse">
+            <!-- Use even flexGrow to achieve uniform grid -->
+            <Label text="" flexGrow="1" />
+            
+            <Label text="" flexGrow="1" />
+            <StackLayout  color="#fff" tap="yesM"  flexGrow="1" >
+                <Image src="{{botonSiM}}"></Image>
+              </StackLayout>
+              <StackLayout  color="#fff" tap="noM"  flexGrow="1" >
+                <Image src="{{botonNoM}}"></Image>
+              </StackLayout>
+            <Label text="" flexGrow="1" />
+            <Label text="" flexGrow="1" />
+        </FlexboxLayout>
+
+        </ScrollView>
+        <FlexboxLayout height="100" flexDirection="row-reverse">
+            <!-- Use even flexGrow to achieve uniform grid -->
+            <Label text="" flexGrow="1" />
+            <Label text="" flexGrow="1" />
+            <StackLayout  color="#fff" tap="yesB"  flexGrow="1" >
+                <Image src="{{botonSiB}}"></Image>
+              </StackLayout>
+              <StackLayout  color="#fff" tap="noB"  flexGrow="1" >
+                <Image src="{{botonNoB}}"></Image>
+              </StackLayout>
+            <Label text="" flexGrow="1" />
+            
+            <Label text="" flexGrow="1" />
+        </FlexboxLayout>
+    </FlexboxLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </Page.actionBar>
 </Page>

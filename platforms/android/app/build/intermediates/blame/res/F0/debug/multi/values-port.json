@@ -46,5 +46,29 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "/home/iofractal/Documentos/proyectos/FashionApp/FashionApp/platforms/android/app/build/intermediates/incremental/mergeF0DebugResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/800c7ec8b5ac00a69655c9107330593ffee64dc5/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
     }
 ]

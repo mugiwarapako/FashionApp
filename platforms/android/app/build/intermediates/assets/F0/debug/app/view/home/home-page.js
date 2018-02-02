@@ -33,7 +33,7 @@ function onNavigatingTo(args) {
     if (appSettings.getBoolean("message") === undefined) {
         dialogsModule.alert({
             title: "Información",
-            message: "Fashion es una herramienta para pasarelas. © 2017 IOFractal.",
+            message: "Fashion es una herramienta para pasarelas. © 2018 IOFractal.",
             okButtonText: "Aceptar"
         }).then(function () {
             appSettings.setBoolean("message", true);
