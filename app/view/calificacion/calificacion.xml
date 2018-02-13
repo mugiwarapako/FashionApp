@@ -20,60 +20,64 @@
 
 
 
-    <FlexboxLayout  flexDirection="column" style="background-image: url('~/images/modelo.jpg');background-repeat: no-repeat; background-position: center; width:100%; height:100% "  >
+    <GridLayout rows="*" columns="*">
+    <Image row="0" col="0" src="{{imgen}}"></Image>
+    <FlexboxLayout  flexDirection="column" style="background-repeat: no-repeat; background-position: center; width:100%; height:100%;" >
         <!-- Reverse the natural flow of items -->
         
 
 
-        <FlexboxLayout height="140" flexDirection="row-reverse">
+        <FlexboxLayout height="160" flexDirection="row-reverse">
+            <Label text="" flexGrow="1"/>
+            <StackLayout class="btn-img"  orientation="horizontal" flexGrow="2" tap="yesTop">
+                <Image src="{{botonSiA}}"  width="35%" height="100%"></Image>
+            </StackLayout>
+            <StackLayout class="btn-img"  orientation="horizontal" flexGrow="2" tap="noTop">
+                <Image src="{{botonNoA}}"  width="35%" height="100%"></Image>
+            </StackLayout>
+            <Label text="" flexGrow="1"/>
+        </FlexboxLayout>
+
+
+
+
+
+
+
+  
+            <FlexboxLayout height="380" flexDirection="row-reverse">
+            <Label text="" flexGrow="1" />
+            <StackLayout class="btn-img"  orientation="horizontal" flexGrow="2" tap="yesM">
+                <Image src="{{botonSiM}}"  width="35%" height="100%"></Image>
+            </StackLayout>
+            <StackLayout class="btn-img"  orientation="horizontal" flexGrow="2" tap="noM">
+                <Image src="{{botonNoM}}"  width="35%" height="100%"></Image>
+            </StackLayout>
+            <Label text="" flexGrow="1" />
+        </FlexboxLayout>
+        
+
+
+
+
+
+
+
+        <FlexboxLayout height="160" flexDirection="row-reverse">
             <!-- Use even flexGrow to achieve uniform grid -->
             <Label text="" flexGrow="1" />
-            <StackLayout  class="btn" tap="yesTop"  flexGrow="2" >
-                <Image src="{{botonSiA}}"></Image>
-              </StackLayout>
-              <StackLayout  class="btn"  tap="noTop"  flexGrow="2" >
-                <Image src="{{botonNoA}}"></Image>
-              </StackLayout>
+            <StackLayout class="btn-img"  orientation="horizontal" flexGrow="2" tap="yesB">
+                <Image src="{{botonSiB}}"  width="35%" height="100%"></Image>
+            </StackLayout>
+            <StackLayout class="btn-img"  orientation="horizontal" flexGrow="2" tap="noB">
+                <Image src="{{botonNoB}}"  width="35%" height="100%"></Image>
+            </StackLayout>
             <Label text="" flexGrow="1" />
         </FlexboxLayout>
 
-
-
-
-
-
-
-        <ScrollView flexGrow="1" id="scrollview" class="fullscreen">
-            <FlexboxLayout height="350" flexDirection="row-reverse">
-            <Label class="btn"  text="" flexGrow="1" />
-            <StackLayout class="btn"  tap="yesM"  flexGrow="2" >
-                <Image src="{{botonSiM}}" width="150"></Image>
-              </StackLayout>
-              <StackLayout   class="btn"  tap="noM"  flexGrow="2" >
-                <Image src="{{botonNoM}}" width="150"></Image>
-              </StackLayout>
-            <Label class="btn"  text="" flexGrow="1" />
-        </FlexboxLayout>
-        </ScrollView>
-
-
-
-
-
-
-
-        <FlexboxLayout height="140" flexDirection="row-reverse">
-            <!-- Use even flexGrow to achieve uniform grid -->
-            <Label text="" flexGrow="1" />
-            <StackLayout  class="btn" tap="yesB"  flexGrow="2" >
-                <Image src="{{botonSiB}}"></Image>
-              </StackLayout>
-              <StackLayout  class="btn"  tap="noB"  flexGrow="2" >
-                <Image src="{{botonNoB}}"></Image>
-              </StackLayout>
-            <Label text="" flexGrow="1" />
-        </FlexboxLayout>
     </FlexboxLayout>
+</GridLayout>
+
 
 
 

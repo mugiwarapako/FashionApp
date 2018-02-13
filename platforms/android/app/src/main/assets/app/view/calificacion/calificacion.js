@@ -21,7 +21,8 @@ var pageData = new observableModule.fromObject({
     botonSiM: "",
     botonNoM: "",
     botonSiB: "",
-    botonNoB: ""
+    botonNoB: "",
+    imgen:""
 });
 
 exports.loaded = function (args) {
@@ -40,6 +41,7 @@ exports.loaded = function (args) {
     pageData.botonNoM = "~/images/NoMegusta.png";
     pageData.botonSiB = "~/images/MeGusta.png";
     pageData.botonNoB = "~/images/NoMegusta.png";
+    pageData.imgen = "~/images/modelo.jpg";
 }
 
 exports.onSaveUser = function () {
