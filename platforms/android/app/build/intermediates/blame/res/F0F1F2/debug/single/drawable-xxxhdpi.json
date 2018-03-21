@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/logo1.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo1.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/menu.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/menu.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/background1.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/background1.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/icon1.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/icon1.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-xxxhdpi/background.png"
+    }
+]

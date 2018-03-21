@@ -22,7 +22,9 @@ var pageData = new observableModule.fromObject({
     botonNoM: "",
     botonSiB: "",
     botonNoB: "",
-    imgen:""
+    imgen:"",
+    listModels : userView
+    
 });
 
 exports.loaded = function (args) {
@@ -42,6 +44,34 @@ exports.loaded = function (args) {
     pageData.botonSiB = "~/images/MeGusta.png";
     pageData.botonNoB = "~/images/NoMegusta.png";
     pageData.imgen = "~/images/modelo.jpg";
+
+    array = new ObservableArray();
+
+    pageData = new observableModule.fromObject({
+        listModels : userView
+    });
+
+    var userJson = {"id_evento": 11,status:2, id: 0};
+    
+    page = args.object;
+    
+	userView.getNextModel(userJson).then(function (data) {
+        
+        array.push(data.response);
+        pageData.listModels = data.response;
+        page.bindingContext = {listModels: array};
+        
+    }).catch(function (error) {
+        pageData.set("isLoading", false);
+        console.log(error);
+        dialogsModule.alert({
+            message: "No pude procesar la petición.",
+            okButtonText: "OK"
+        });
+        return Promise.reject();
+    });
+
+
 }
 
 exports.onSaveUser = function () {

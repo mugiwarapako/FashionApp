@@ -1,0 +1,39 @@
+<Page loaded="loaded" xmlns:nsDrawer="nativescript-pro-ui/sidedrawer"  xmlns:lv="nativescript-pro-ui/listview" >
+  <Page.actionBar>
+    <ActionBar class="action-bar">
+      <ActionBar.titleView>
+        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="back"/>
+        <StackLayout orientation="horizontal"
+    ios:horizontalAlignment="center"
+    android:horizontalAlignment="left">
+          <Image src="~/images/logoBar.png" class="action-image"></Image>
+          <Label text="Fashion" style="font-size:22;" class="action-label-1" />
+        </StackLayout>
+      </ActionBar.titleView>
+      <ActionItem tap="onSaveUser"  ios.systemIcon="2" android.systemIcon="ic_menu_save"/>
+    </ActionBar>
+  </Page.actionBar>
+
+
+
+  <ActivityIndicator busy="{{ isLoading }}" height="60" width="60"/>
+      <TabView tabBackgroundColor="rgb(232,76,61)">
+        <TabView.items class="tab-view">
+          <TabViewItem  title="Modelos">
+            <TabViewItem.view>
+              <GridLayout>
+                <ListView items="{{ listModels }}" id="listModels" itemTap="listViewItemTap" itemTapLong="log">
+                  <ListView.itemTemplate>
+                    <GridLayout rows="auto,auto,auto" columns="100,*,*,40" >
+                      <Label text="{{descripcion}}" rowSpan="2" col="0" class="text-list-title" horizontalAlignment="center" verticalAlignment="center" />
+                    </GridLayout>
+                  </ListView.itemTemplate>
+                </ListView>
+                <ActivityIndicator busy="{{ isLoading }}" height="60" width="60"/>
+              </GridLayout>
+            </TabViewItem.view>
+          </TabViewItem>
+        </TabView.items>
+      </TabView>
+
+</Page>

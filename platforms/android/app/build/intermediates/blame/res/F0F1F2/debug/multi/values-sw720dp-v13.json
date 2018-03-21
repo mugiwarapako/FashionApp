@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/incremental/mergeF0F1F2DebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/6ab095ab21ddc8c297524c2213b6cc203f663f92/output/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

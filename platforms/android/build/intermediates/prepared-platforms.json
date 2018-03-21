@@ -1,7 +1,10 @@
 {
+    "nativescript-camera": true,
+    "nativescript-geolocation": true,
     "nativescript-pro-ui": true,
     "nativescript-theme-core": true,
     "nativescript-toast": true,
     "tns-core-modules": true,
+    "nativescript-permissions": true,
     "tns-core-modules-widgets": true
 }

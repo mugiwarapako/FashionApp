@@ -6,14 +6,16 @@
 	"nativescript": {
 		"id": "org.nativescript.Fashion",
 		"tns-android": {
-			"version": "3.4.1"
+			"version": "3.4.2"
 		}
 	},
 	"dependencies": {
+		"nativescript-camera": "^4.0.1",
+		"nativescript-geolocation": "^4.2.4",
 		"nativescript-pro-ui": "^3.3.0",
 		"nativescript-theme-core": "~1.0.4",
 		"nativescript-toast": "^1.4.6",
-		"tns-core-modules": "~3.1.0"
+		"tns-core-modules": "^3.4.1"
 	},
 	"devDependencies": {
 		"babel-traverse": "6.26.0",

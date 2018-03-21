@@ -125,6 +125,28 @@ exports.group = function () {
 
 }
 
+exports.models = function () {
+
+    var topmost = frameModule.topmost();
+
+    // Opciones de la navegacion
+    var navigationOptions = {
+        //moduleName: "view/home-client/home-client",
+        moduleName: "view/mostrarModelo/mostrarModelo",
+        backstackVisible: false,
+        clearHistory: false,
+        animated: true,
+        transition: {
+            name: "slideLeft",
+            duration: 380,
+            curve: "easeIn"
+        }
+    };
+
+    // Navegamos a la vista indicada
+    topmost.navigate(navigationOptions);
+}
+
 
 
 exports.onNavigatingTo = onNavigatingTo;

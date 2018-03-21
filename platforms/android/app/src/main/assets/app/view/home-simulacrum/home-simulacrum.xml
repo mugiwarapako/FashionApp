@@ -15,18 +15,10 @@
   </Page.actionBar>
 
   <StackLayout orientation="vertical" class="margin-page">
-    <Label text="Agregar Evento" horizontalAlignment="center" class="title-activity" />
-    <Label text="Nombre del evento" class="label-text-static"/>
-    <TextField text="{{ name }}" class="field-text-static" hint="Nombre" returnKeyType="next" />
-    
-    <Label text="Dirección" class="label-text-static"/>
-    <TextField text="{{ address }}" class="field-text-static"  hint="Dirección" returnKeyType="next" />
-
-    <Label text="Fecha" class="label-text-static"/>
-    <TextField text="{{ date }}" class="field-text-static" hint="Fecha" returnKeyType="next" />
-    
-    <Label text="Numero Lugares" class="label-text-static"/>
-    <TextField text="{{ phone }}" class="field-text-static" keyboardType="phone"  hint="Teléfono" returnKeyType="done"/>
+    <Label text="Tomar Foto" class="label-text-static"/>
+    <Button class="btn btn-primary" text="Tomar Foto" tap="onRequestPermissionsTap"/>
+    <Label text="Descripción" class="label-text-static"/>
+    <TextField text="{{ description }}" class="field-text-static" hint="Descripción" returnKeyType="next" />
   </StackLayout>
 
 </Page>

@@ -22,7 +22,6 @@ exports.loaded = function (args) {
 	pageData.name = '';
 	pageData.email = '';
 	pageData.phone = '';
-	//userView.add();
 }
 
 exports.onSaveUser = function () {

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/menu.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/menu.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/logo1.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/logo1.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/icon1.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/icon1.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/background.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/background.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/icon.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/background1.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/background1.png"
+    },
+    {
+        "merged": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/build/intermediates/res/merged/F0F1F2/debug/drawable-mdpi/logo.png",
+        "source": "/home/iofractal/Documentos/proyectos/FashionApp/platforms/android/app/src/main/res/drawable-mdpi/logo.png"
+    }
+]

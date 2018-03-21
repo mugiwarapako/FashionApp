@@ -1,28 +1,32 @@
 {
-  "_from": "nativescript-toast",
+  "_args": [
+    [
+      "nativescript-toast@1.4.6",
+      "/home/iofractal/Documentos/proyectos/FashionApp"
+    ]
+  ],
+  "_from": "nativescript-toast@1.4.6",
   "_id": "nativescript-toast@1.4.6",
   "_inBundle": false,
   "_integrity": "sha1-USRkJRAozyeMlM/89lr4zA965Po=",
   "_location": "/nativescript-toast",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-toast",
+    "raw": "nativescript-toast@1.4.6",
     "name": "nativescript-toast",
     "escapedName": "nativescript-toast",
-    "rawSpec": "",
+    "rawSpec": "1.4.6",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "1.4.6"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-toast/-/nativescript-toast-1.4.6.tgz",
-  "_shasum": "512464251028cf278c94cffcf65af8cc0f7ae4fa",
-  "_spec": "nativescript-toast",
-  "_where": "/home/iofractal/Documentos/proyectos/Fashion",
+  "_spec": "1.4.6",
+  "_where": "/home/iofractal/Documentos/proyectos/FashionApp",
   "author": {
     "name": "Tobias Hennig",
     "email": "tobias.hennig1@gmail.com",
@@ -31,9 +35,7 @@
   "bugs": {
     "url": "https://github.com/TobiasHennig/nativescript-toast/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "A NativeScript Toast Plugin for Android and iOS apps.",
   "devDependencies": {
     "conventional-changelog-cli": "1.2.0"

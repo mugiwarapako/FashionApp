@@ -95,29 +95,113 @@ function UserViewModel(items) {
             });
     };
 
-    viewModel.searchFolio = function (folio) {
-        return fetch(config.apiUrl + "usuario/existeUsuarios", {
+    viewModel.getListModels = function (userData) {
+        console.log("************" + userData.id_evento);
+        console.log("JSON -------> " + JSON.stringify(userData));
+        console.log("NOMBRE QUE LE MANDO DEL JS --------------->" +config.apiUrl + "models/listModelByEvent" );
+        return fetch(config.apiUrl + "models/listModelByEvent", {
             method: "POST",
             body: JSON.stringify({
-                folio: folio
+                id_evento: userData.id_evento,
+                status: userData.status
             }),
             headers: {
                 "Content-Type": "application/json"
             }
         })
-        .then(handleErrors)
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            //Agregar al appsettings lo que recibimos...
-            //appSettings
-            console.log("HOLA");
-        });
+            .then(handleErrors)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                //console.dir(data);
+                return data;
+            });
     };
-    return viewModel;
 
-    // Vidiriana Peréz
+
+    viewModel.chengeStatus = function (userData) {
+        console.log("JSON -------> " + JSON.stringify(userData));
+        console.log("NOMBRE QUE LE MANDO DEL JS --------------->" +config.apiUrl + "models/changeStatus" );
+        return fetch(config.apiUrl + "models/changeStatus", {
+            method: "POST",
+            body: JSON.stringify({
+                id : userData.id,
+                status : userData.status
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+            .then(handleErrors)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                //console.dir(data);
+                return data;
+            });
+    };
+    
+
+    viewModel.addModel = function (userData) {
+        console.log("JSON ----*****---> " + JSON.stringify(userData));
+        console.log("apiUrl *****---> " + config.apiUrl + "models/addModels");
+        return fetch(config.apiUrl + "models/addModels", {
+            method: "POST",
+            body: JSON.stringify({
+                descripcion: userData.description,
+                imagen: userData.imagen,
+                latitud: userData.latitude,
+                status: userData.status,
+                longitud: userData.longitude,
+                descripcion:userData.descripcion
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+            .then(handleErrors)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+
+
+                //data.response.forEach(function (client) {
+                //    console.log("Nombre ----> " + client.alias);
+                //});
+            });
+    };
+
+    viewModel.getNextModel = function (userData) {
+        console.log("JSON -------> " + JSON.stringify(userData));
+        console.log("NOMBRE QUE LE MANDO DEL JS --------------->" +config.apiUrl + "models/next" );
+        return fetch(config.apiUrl + "models/next", {
+            method: "POST",
+            body: JSON.stringify({
+                id_evento: userData.id_evento,
+                status: userData.status,
+                id: userData.id
+            }),
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+            .then(handleErrors)
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                //console.dir(data);
+                return data;
+            });
+    };
+
+    
+
+    
+    return viewModel;
 }
 
 function handleErrors(response) {

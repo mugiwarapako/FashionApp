@@ -1,0 +1,40 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onPageLoaded">
+  <Page.actionBar>
+    <ActionBar class="action-bar">
+      <ActionBar.titleView>
+        <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="back"/>
+        <StackLayout orientation="horizontal"
+    ios:horizontalAlignment="center"
+    android:horizontalAlignment="left">
+          <Image src="~/images/logoBar.png" class="action-image"></Image>
+          <Label text="Fashion" style="font-size:22;" class="action-label-1" />
+        </StackLayout>
+      </ActionBar.titleView>
+      
+    </ActionBar>
+  </Page.actionBar>
+
+
+
+  <ActivityIndicator busy="{{ isLoading }}" height="60" width="60"/>
+      <TabView tabBackgroundColor="rgb(226, 2, 152)"  selectedIndexChanged="onSelectedIndexChanged">
+        <TabView.items class="tab-view">
+          <TabViewItem  title="Modelos" >
+            <TabViewItem.view>
+              <GridLayout>
+                <ListView items="{{ listModels }}" id="listview" itemTap="listViewItemTap" itemTapLong="log">
+                  <ListView.itemTemplate>
+                    <GridLayout rows="auto,auto,auto" columns="*,*,*,*" >
+                    <Image src="{{imagen}}" row="0" col="1"/>
+                      <Label text="{{descripcion}}" row="0" col="2" class="text-list-title" horizontalAlignment="center" verticalAlignment="center" />
+                    </GridLayout>
+                  </ListView.itemTemplate>
+                </ListView>
+                <ActivityIndicator busy="{{ isLoading }}" height="60" width="60"/>
+              </GridLayout>
+            </TabViewItem.view>
+          </TabViewItem>
+        </TabView.items>
+      </TabView>
+
+</Page>

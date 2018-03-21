@@ -1,5 +1,13 @@
 [
     {
+        "name": "nativescript-camera",
+        "directory": "../../node_modules/nativescript-camera"
+    },
+    {
+        "name": "nativescript-geolocation",
+        "directory": "../../node_modules/nativescript-geolocation"
+    },
+    {
         "name": "nativescript-pro-ui",
         "directory": "../../node_modules/nativescript-pro-ui"
     },
@@ -14,6 +22,10 @@
     {
         "name": "tns-core-modules",
         "directory": "../../node_modules/tns-core-modules"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "../../node_modules/nativescript-permissions"
     },
     {
         "name": "tns-core-modules-widgets",

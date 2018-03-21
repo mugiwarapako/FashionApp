@@ -22,7 +22,9 @@ var pageData = new observableModule.fromObject({
     botonNoM: "",
     botonSiB: "",
     botonNoB: "",
-    imgen:""
+    imgen:"",
+    listModels : userView
+    
 });
 
 exports.loaded = function (args) {

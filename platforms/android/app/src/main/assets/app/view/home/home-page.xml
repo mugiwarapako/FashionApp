@@ -13,11 +13,13 @@
       </StackLayout>
     </ActionBar>
   <ScrollView>
-    <GridLayout columns="1,*,1" rows="100, auto, auto, auto">
-      <!--Label colSpan="3" row="0" text="Simulacro" horizontalAlignment="center" verticalAlignment="center" class="label-title" /-->
-      <Button col="1" row="1" text="Usuario" tap="individual" class="button-primary" />
-      <Button col="1" row="2" text="Evento" tap="macro" class="button-primary" />
-      <Button col="1" row="3" text="Calificar modelo" tap="group" class="button-primary" />
-    </GridLayout>
+   <StackLayout orientation="vertical" width="100%" height="45%">
+    
+      <Button text="Usuario" tap="individual" class="button-primary" />
+      <Button text="Modelo" tap="macro" class="button-primary" />
+      <Button text="Calificar modelo" tap="group" class="button-primary" />
+      <Button text="Mostrar Modelos" tap="models" class="button-primary" />
+</StackLayout> 
+
   </ScrollView>
 </Page>
