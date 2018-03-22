@@ -12,25 +12,30 @@ var userView = new UserViewModel([]);
 var pageData = new observableModule.fromObject({
 	id_usuario: "",
     id_modelo: "",
+
     calf_arriba: "",
     calf_media: "",
     calf_bajo: "",
 
     botonSiA: "",
     botonNoA: "",
+
     botonSiM: "",
     botonNoM: "",
+
     botonSiB: "",
     botonNoB: "",
-    imgen:"",
-    listModels : userView
+
+    imgen:""
     
 });
 
 exports.loaded = function (args) {
-	page = args.object;
+    
+    page = args.object;
 	page.bindingContext = pageData;
-	console.log("Calificar Modelo");
+
+    console.log("Calificar Modelo");
     pageData.id_usuario = "1";
     pageData.id_modelo = "1";
     pageData.calf_arriba = "0";
@@ -44,34 +49,46 @@ exports.loaded = function (args) {
     pageData.botonSiB = "~/images/MeGusta.png";
     pageData.botonNoB = "~/images/NoMegusta.png";
     pageData.imgen = "~/images/modelo.jpg";
-
-    array = new ObservableArray();
-
-    pageData = new observableModule.fromObject({
-        listModels : userView
-    });
-
-    var userJson = {"id_evento": 11,status:2, id: 0};
-    
-    page = args.object;
-    
-	userView.getNextModel(userJson).then(function (data) {
-        
-        array.push(data.response);
-        pageData.listModels = data.response;
-        page.bindingContext = {listModels: array};
-        
-    }).catch(function (error) {
-        pageData.set("isLoading", false);
-        console.log(error);
-        dialogsModule.alert({
-            message: "No pude procesar la petición.",
-            okButtonText: "OK"
-        });
-        return Promise.reject();
-    });
-
-
+    //
+//
+    //array = new ObservableArray();
+//
+    //pageData = new observableModule.fromObject({
+    //    listModels : userView
+    //});
+//
+    //var userJson = {"id_evento": 11,status:2, id: 0};
+    //
+    //page = args.object;
+    //
+	//userView.getNextModel(userJson).then(function (data) {
+    //    
+    //    array.push(data.response);
+//
+    //    console.log("*********************");
+    //    //console.dir(data.response);
+    //    console.log("*********************");
+    //    console.dir(data.response.status);
+//
+    //    if(data.response.status === true){
+    //        console.log("*********************");
+    //        pageData.imgen = data.response.modelo[0].imagen;
+    //        console.log("*********************");
+    //        console.log(pageData);
+    //    }
+    //    
+    //    
+    //}).catch(function (error) {
+    //    pageData.set("isLoading", false);
+    //    console.log(error);
+    //    dialogsModule.alert({
+    //        message: "No pude procesar la petición.",
+    //        okButtonText: "OK"
+    //    });
+    //    return Promise.reject();
+    //});
+//
+//
 }
 
 exports.onSaveUser = function () {
@@ -178,4 +195,9 @@ function verifyEmpty(field) {
 		flag = false;
 	}
 	return flag;
+}
+
+
+function cargar(){
+	
 }

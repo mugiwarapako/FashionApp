@@ -176,8 +176,8 @@ function UserViewModel(items) {
 
     viewModel.getNextModel = function (userData) {
         console.log("JSON -------> " + JSON.stringify(userData));
-        console.log("NOMBRE QUE LE MANDO DEL JS --------------->" +config.apiUrl + "models/listModelByEvent" );
-        return fetch(config.apiUrl + "models/listModelByEvent", {
+        console.log("NOMBRE QUE LE MANDO DEL JS --------------->" +config.apiUrl + "models/next" );
+        return fetch(config.apiUrl + "models/next", {
             method: "POST",
             body: JSON.stringify({
                 id_evento: userData.id_evento,

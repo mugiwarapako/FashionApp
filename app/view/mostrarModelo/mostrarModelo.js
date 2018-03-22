@@ -15,6 +15,11 @@ var pageData = new observableModule.fromObject({
 });
 
 exports.onPageLoaded = function (args) {
+    list(args);
+}
+
+function list(args){
+
     array = new ObservableArray();
 
     pageData = new observableModule.fromObject({
@@ -22,7 +27,7 @@ exports.onPageLoaded = function (args) {
         listModels : userView
     });
 
-    var userJson = {"id_evento": 11,status:1};
+    var userJson = {"id_evento": 11, status:1};
     console.log(pageData.text);
     
     page = args.object;
@@ -49,11 +54,6 @@ exports.onPageLoaded = function (args) {
         });
         return Promise.reject();
     });
-}
-
-function list(){
-
-    
 
 }
 
